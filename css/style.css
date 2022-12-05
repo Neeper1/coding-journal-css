@@ -334,6 +334,7 @@ footer {
     .flex {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .about-me-hero {
@@ -354,12 +355,10 @@ footer {
         margin-left: 1em;
         margin-top: 0.7em;
     }
-
-
 }
 
 
-@media (max-width: 1099px) and (min-width: 650px) {
+@media (max-width: 1099px) and (min-width: 600px) {
     h1,
     .date,
     .intro-text {
@@ -371,11 +370,11 @@ footer {
         margin-top: 2em;
     }
 
-
     main .container {
         grid-template-columns: 1fr 1fr;
         gap: 16px;
     }
+
     .blog-card:first-child {
         margin-top: 0;
     }
@@ -383,6 +382,7 @@ footer {
     .blog-text {
         font-size: 1.125rem;
         max-width: 85%;
+        margin-bottom: 2em;
     }
 
     .about-me-blog-text {
